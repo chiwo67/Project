@@ -1,16 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Document</title>
 </head>
+
+
 <body>
-    <h1>
-        
-        Hello World!
-    </h1>
+    <header class="bg-[#F4F0BB] flex flex-row gap-5">
+        <h1 class="font-bold underline"> NAFASI</h1>
+        <i class="fa-solid fa-house"></i>
+        <button onclick="window.location.href='spaces.html'" class="font-semibold">Spaces</button>
+        <button onclick="window.location.href='about.html'" class="font-semibold">About</button>
+    </header>
+    <section id="body" class="">
+        <div id="intro" class="text-center">
+            <h2 class="underline font-bold text-center">WELCOME TO NAFASI</h2>
+            <p class="text-center">We are a commited space-renting company motivated by customer satisfaction to provide
+                utmost services to
+                the public. </p>
+        </div>
+        <div class="" id="booking-header">
+            <h2 class="underline font-medium">BOOK WITH US:</h2>
+            <p> Try booking with us today:</p>
+
+        </div>
+        <div id="catalog" class="flex flex-row gap-10">
+            <div id="Bouganvelia" class="justify-left">
+                <h3 class="underline mt-3">Bouganvelia Gardens.</h3>
+                <p>This is a perfect space
+                    for people looking for to
+                    have picnics or just love the
+                    ambience of nature.
+                </p>
+                <img src="https://images.unsplash.com/photo-1778078983873-39a8671b7641?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Bouganvelia-pic" class=" w-100 h-80 ml-2">
+                <button onclick="window.location.href='form.html'" class="font-semibold mt-3" id="button">Book now</button>
+
+
+            </div>
+            <div id="oval" class=" justify-center">
+                <h3 class="underline mt-3">The Oval</h3>
+                <p>
+                    This is a perfect space for people
+                    looking to work in offices.
+                </p>
+                <img src="https://plus.unsplash.com/premium_photo-1681487178876-a1156952ec60?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8b2ZmaWNlfGVufDB8fDB8fHww"
+                    alt="oval" class="w-100 h-80 ">
+                <button onclick="window.location.href='form.html'" class="font-semibold mt-3 ml-2" id="button">Book now</button>
+
+            </div>
+            <div id="Cozy spaces" class="justify-right">
+                <h3 class="underline mt-3">Cozy spaces</h3>
+                <p>Are you looking to work from the
+                    comfort of your home ? This is the
+                    one for you.
+                </p>
+                <img src="https://images.unsplash.com/photo-1623177623442-979c1e42c255?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG9tZSUyMG9mZmljZXxlbnwwfHwwfHx8MA%3D%3D"
+                    alt="Cozy" class="w-100 h-80 mr-2">
+                <button onclick="window.location.href='form.html'" class="font-semibold mt-3" id="button">Book now</button>
+
+            </div>
+        </div>
+    </section>
+
+
+ <p>&copy;camorespaces All RIGHTS RESERVED 2026
+
+    </p>
+
 </body>
-    
-</body>
+
+
+
 </html>
