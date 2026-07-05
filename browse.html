@@ -1,17 +1,147 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="spaces.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Document</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <header class="bg-[#F4F0BB] flex flex-row gap-5">
-        <h1 class="font-bold underline"> NAFASI</h1>
-        <i class="fa-solid fa-house"></i>
-        <button onclick="window.location.href='spaces.html'" class="font-semibold">Spaces</button>
-        <button onclick="window.location.href='about.html'" class="font-semibold">About</button>
+      <h1 class="font-bold underline">NAFASI</h1>
+      <i class="fa-solid fa-house"></i>
+      <button
+        onclick="window.location.href = 'spaces.html'"
+        class="font-semibold"
+      >
+        Spaces
+      </button>
+      <button
+        onclick="window.location.href = 'about.html'"
+        class="font-semibold"
+      >
+        About
+      </button>
+      <select id="Reaason" name="Reason" value="Reason">
+        <option value="Leisure" a href="#Leisure">Leisure</option>
+        <option value="Workspace" a href="#Workspace">Workspace</option>
+        <option value="Home-Space" a href="#Home-space">Home-Space</option>
+        <option value="Events" a href="#Events">Events</option>
+      </select>
     </header>
-    
-</body>
+
+    <div class="flex grid grid-cols-3 grid-rows-3 gap-4" id="#Leisure">
+      <div
+        class="space-card border border-[#000000] w-10px sm:w-auto text-center bg-danger font-semibold px-8 py-3.5 rounded-[7px]"
+      >
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStgAtp3XdXpKouI7Sn5qfWv86Qgnes7HLAXhcDgutNTw&s=10"
+          alt="Uhuru Gardens"
+        />
+
+        <p class="text-[#f56c6c]"></p>
+        <p class="text-lg text-b">Uhuru Park</p>
+        <p class="">
+          Uhuru Park is a 12.9 hectare (32 acre) recreational park adjacent to
+          the central business district of Nairobi, Kenya. It was opened to the
+          public by the late Mzee Jomo Kenyatta on 23 May 1969. It contains an
+          artificial lake, several national monuments, and an assembly ground
+          which has become a popular skateboarding spot on weekends and also a
+          location for local skateboarding competitions (best trick contest
+          2017), catering to Nairobi's growing skate scene.[1]
+        </p>
+        <a
+          href="form.html"
+          class="book-now-button"
+        >
+          Book Now</a
+        >
+      </div>
+      <div
+        class="space-card border border-[#000000] w-10px sm:w-auto text-center bg-danger font-semibold px-8 py-3.5 rounded-[7px]"
+      >
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZmRpHdgJD-zuqXzqn-_6EichY8-LFiUsa9OFZJOStyg&s=10"
+          alt="Arboretum"
+        />
+
+        <p class="text-[#f56c6c]"></p>
+        <p class="text-lg text-b">Arboretum</p>
+        <p class="">
+          An arboretum is a place holding living collection of plants for the
+          purposes of scientific research, conservation, display and education
+          (Wyse Jackson 1999). It situated in the Kilimani area, about 3 km from
+          city centre and adjacent to the State House. It is also bounded by the
+          Kirichwa Kubwa River, Arboretum Drive and Kenya Girl Guide
+          Headquarters. It is has a 30.4 hectares of wooded landscape, home to
+          approximately 350 species of indigenous and exotic trees, as well as
+          shrubs, herbs, grasses and other plants, creating a lush tapestry of
+          greens all year round. With its lush greenery and diverse flora, the
+          Arboretum is an oasis close to the heart of the city centre, a popular
+          destination for nature lovers. It is one of Nairobi’s few remaining
+          green spaces.
+        </p>
+        <a
+          href="form.html"
+          class="book-now-button"
+        >
+          Book Now</a
+        >
+      </div>
+      <div
+        class="space-card border border-[#000000] w-10px sm:w-auto text-center bg-danger font-semibold px-8 py-3.5 rounded-[7px]"
+      >
+        <img
+          src="https://images.unsplash.com/photo-1578359968130-76b59bb5af13?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGljbmljfGVufDB8fDB8fHww"
+          alt="Case spaces"
+        />
+
+        <p class="text-[#f56c6c]"></p>
+        <p class="text-lg text-b">Case spaces</p>
+        <p class="">
+          Position your business in a prestigious location designed to leave a
+          lasting impression. Enjoy premium visibility, convenience, and the
+          perfect setting to welcome your customers.
+        </p>
+        <a
+          href="form.html"
+          class="book-now-button"
+        >
+          Book Now</a
+        >
+      </div>
+      <div
+        class="space-card border border-[#000000] w-10px sm:w-auto text-center bg-danger font-semibold px-8 py-3.5 rounded-[7px]"
+      >
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3H47_7GVfojwVPB_RBv_aIIxsw9E68lL81xvo4Mdu-g&s=10"
+          alt="Naishola Gardens"
+        />
+
+        <p class="text-[#f56c6c]"></p>
+        <p class="text-lg text-b">Hidden Gardens</p>
+        <p class="">
+          At Hidden Gardens, we are delighted to open our enchanting grounds to
+          the wider community for various events and gatherings. Nestled amidst
+          nature's beauty, our picturesque gardens offer a tranquil and
+          captivating setting that will undoubtedly add a touch of magic to any
+          occasion.
+        </p>
+        <a
+          href="form.html"
+          class="book-now-button"
+        >
+          Book Now</a
+        >
+      </div>
+    </div>
+  </body>
 </html>
