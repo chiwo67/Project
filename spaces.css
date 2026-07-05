@@ -1,0 +1,12 @@
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #F5D7AB, #000000);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
