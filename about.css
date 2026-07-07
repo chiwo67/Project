@@ -11,3 +11,14 @@
   background-repeat: no-repeat;
   color: aliceblue;
 }
+
+#h-button{
+  border: #F5D7AB solid;
+  background-color: #F5D7AB;
+  padding: 1px;
+}
+
+#h-button:hover{
+  background-color: #000000;
+  color: #ffffff;
+}

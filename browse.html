@@ -15,35 +15,34 @@
   </head>
 
   <body>
-    <header class="bg-[#F4F0BB] flex flex-row gap-5">
-      <h1 class="font-bold underline">NAFASI</h1>
+    <header id="h-button" class="bg-[#F5D7AB] flex flex-row gap-30 border border-[1px] py-3">
+      <h1 class="font-bold underline text-4xl ml-2">NAFASI</h1>
       <i class="fa-solid fa-house"></i>
       <button
         onclick="window.location.href = 'spaces.html'"
-        class="font-semibold"
+        class="font-semibold" id="h-button" 
       >
         Spaces
       </button>
        <button
         onclick="window.location.href = 'index.html'"
-        class="font-semibold"
+        class="font-semibold"  id="h-button" 
       >
         Home
       </button>
       <button
         onclick="window.location.href = 'about.html'"
-        class="font-semibold"
+        class="font-semibold"  id="h-button" 
       >
         About
       </button>
-      <select id="Reaason" name="Reason" value="Reason">
-        <option value="Leisure" a href="#Leisure">Leisure</option>
-        <option value="Workspace" a href="#Workspace">Workspace</option>
-        <option value="Home-Space" a href="#Home-space">Home-Space</option>
-        <option value="Events" a href="#Events">Events</option>
+      <select id="Reason" name="Reason" onchange="window.location.href = this.value">
+        <option value="#Leisure">Leisure</option>
+        <option value="#Workspace">Workspace</option>
+        <option value="#Events">Events</option>
       </select>
     </header>
-    <h1 class="text-center underline font-bold">Leisure</h1>
+    <h1 class="text-center underline font-bold text-4xl mt-2">Leisure</h1>
     <section class="grid grid-cols-3 gap-4 mt-2" id="Leisure">
       <div
         class="space-card border border-[#000000] w-10px sm:w-auto text-center bg-danger font-semibold px-8 py-3.5 rounded-[7px]"
@@ -129,7 +128,7 @@
         <a href="form.html" class="book-now-button"> Book Now</a>
       </div>
     </section>
-    <h1 class="text-center underline font-bold">Workspace</h1>
+    <h1 class="text-center underline font-bold text-4xl mt-3">Workspace</h1>
     <section class="grid grid-cols-3 gap-4 mt-4" id="Workspace">
       <div
         class="space-card border border-[#000000] w-10px sm:w-auto text-center bg-danger font-semibold px-8 py-3.5 rounded-[7px]"
@@ -251,7 +250,7 @@
         <a href="form.html" class="book-now-button"> Book Now</a>
       </div>
     </section>
-    <h1 class="text-center underline font-bold">Events</h1>
+    <h1 class="text-center underline font-bold text-4xl my-3 mt-5">Events</h1>
     <section class="grid grid-cols-3 gap-4 mt-2" id="Events">
       <div
         class="space-card border border-[#000000] w-10px sm:w-auto text-center bg-danger font-semibold px-8 py-3.5 rounded-[7px]"

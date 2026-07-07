@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -13,40 +13,80 @@
 </head>
 
 <body>
-    <section id="FORM">
-        <h2>Book Your Stay:</h2>
+    <header id="h-button" class="bg-[#C4A77D] flex flex-row gap-30 border border-1 p-3">
+        <h1 class="font-bold underline">NAFASI</h1>
+        <i class="fa-solid fa-house"></i>
+        <button onclick="window.location.href = 'index.html'" class="font-semibold">
+            Home
+        </button>
+        <button onclick="window.location.href = 'spaces.html'" class="font-semibold hover:">
+            Spaces
+        </button>
+        <button onclick="window.location.href = 'about.html'" class="font-semibold">
+            About
+        </button>
+    </header>
+    <section id="FORM" class="place-content-center">
+        <h2 class="font-bold text-8x1">Book Your Stay:</h2>
         <form action="submit_form.php" method="post">
-            <label for="name">Name:</label><br><br>
-            <input type="text" id="name" name="name" required><br><br>
+            <label for="name">Name:</label><br /><br />
+            <input type="text" id="name" name="name" required
+                class="border border-3px rounded-[7px] w-250 h-15" /><br /><br />
 
-            <label for="email">Email:</label><br><br>
-            <input type="email" id="email" name="email" required><br><br>
+            <label for="email">Email:</label><br /><br />
+            <input type="email" id="email" name="email" required
+                class="border border-3px rounded-[7px] w-250 h-15" /><br /><br />
 
             <label for="would you like to recieve notifications?">Would you like to receive
-                notifications?</label><br><br>
-            <select id="notifications" name="notifications" value="notifications" required>
-                <option value="yes">Yes, I would like to receive notifications.</option>
+                notifications?</label><br /><br />
+            <select id="notifications" name="notifications" value="notifications" required
+                class="border border-3px rounded-[7px] w-250 h-15">
+                <option value="yes">
+                    Yes, I would like to receive notifications.
+                </option>
                 <option value="no">No, thank you.</option>
-            </select><br><br>
+            </select><br /><br />
 
-            <label for="Check-in date">Check-in date:</label><br><br>
-            <input type="date" id="check-in" name="check-in" required><br><br>
-            <label for="Check-out date">Check-out date:</label><br><br>
-            <input type="date" id="check-out" name="check-out" required><br><br>
+            <label for="Check-in date">Check-in date:</label><br /><br />
+            <input type="date" id="check-in" name="check-in" required
+                class="border border-3px rounded-[7px] w-250 h-15" /><br /><br />
+            <label for="Check-out date">Check-out date:</label><br /><br />
+            <input type="date" id="check-out" name="check-out" required
+                class="border border-3px rounded-[7px] w-250 h-15" /><br /><br />
 
-            <label for="number of guests">Number of guests:</label><br><br>
-            <input type="number" id="guests" name="guests" min="1" max="6" required><br><br>
+            <label for="number of guests">Number of guests:</label><br /><br />
+            <input type="number" id="guests" name="guests" min="1" max="6" required
+                class="border border-3px rounded-[7px] w-250 h-15" /><br /><br />
 
-            <label for="Reason for booking">Reason for booking:</label><br><br>
-            <select id="reason" name="reason" value="reason" required>
-                <option value="leisure">Leisure</option>
-                <option value="business">Business</option>
-                <option value="other">Other</option>
-            </select><br><br>
+            <label for="Reason for booking">Reason for booking:</label><br /><br />
+            <select id="reason" name="reason" value="reason" required
+                class="border border-3px rounded-[7px] w-250 h-15">
+                <option value="leisure" class="text-black">Leisure</option>
+                <option value="business" class="text-black">Business</option>
+                <option value="business" class="text-black">Business</option>
+                <option value="other" class="text-black">Other</option>
+            </select><br /><br />
+            <label for="Reason for booking">Payment Method:</label><br /><br />
+            <select id="reason" name="reason" value="reason" required
+                class="border border-3px rounded-[7px] w-250 h-15">
+                <option value="leisure" class="text-black">M-Pesa</option>
+                <option value="business" class="text-black">NCBA bank</option>
+                <option value="business" class="text-black">Pay pal</option>
+                <option value="other" class="text-black">Cash app</option>
+            </select><br /><br />
 
-            <input type="submit" value="Register">
+            <label for="location booked">Location booked</label><br /><br />
+            <input type="text" id="location" name="location" required
+                class="border border-3px rounded-[7px] w-250 h-15" /><br /><br />
 
-
+            <input type="submit" value="Register" class="font-semibold border border-[3px] bg-black px-3 py-3 w-50" />
+            <button onclick="window.location.href = 'index.html'"
+                class="font-semibold border border-[3px] bg-black px-3 py-3 w-50">
+                Cancel booking
+            </button>
+        </form>
+    </section>
+    <p>&copy;All rights Reserved Nafasi spaces</p>
 </body>
 
 </html>
