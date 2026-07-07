@@ -1,0 +1,71 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<header id="h-button" class="bg-[#F5D7AB] flex flex-row gap-30 border border-1 p-3">
+    <h1 class="font-bold underline">NAFASI</h1>
+    <i class="fa-solid fa-house"></i>
+    <button onclick="window.location.href = 'index.html'" class="font-semibold">
+        Home
+    </button>
+    <button onclick="window.location.href = 'spaces.html'" class="font-semibold hover:">
+        Spaces
+    </button>
+    <button onclick="window.location.href = 'about.html'" class="font-semibold">
+        About
+    </button>
+    <button onclick="window.location.href = 'support.html'" class="font-semibold">
+        Support
+    </button>
+</header>
+
+<body>
+    <section id="body">
+        <h1 class="mr-30 text-2xl">Do you require help ?</h1>
+        <p class="mr-30">
+            Then please fill in the support form or make a phone call to the respecive
+            phone number and we will get to to you as soon as possible
+        </p>
+        <section id="s-form" class="text-center">
+            <form method="submit_form.php" action="post">
+                <label for="name">Name:</label><br /><br />
+                <input type="text" id="name" name="name" required
+                    class="border border-3px rounded-[7px] w-250 h-15" /><br><br>
+
+                <label for="email">Email:</label><br /><br />
+                <input type="text" id="email" name="email" required
+                    class="border border-3px rounded-[7px] w-250 h-15" /><br><br>
+                <label for="reason">Briefly describe your problem:</label><br><br>
+                <input type="text" id="text-problem" name="text-problem"
+                    class="border border-3px rounded-[7px] w-250 h-20"><br><br>
+
+                    <input type="submit" value="submit" class="font-semibold border border-[3px] bg-black px-3 py-3 w-50">
+                    
+
+
+
+
+            </form>
+
+             <div id="contact" class="text-center">
+            <h2 class="underline font-bold">Contact us</h2>
+            <p>
+                Contact us for help and inquiries about our businesses<br><br>
+                <i class="fa-brands fa-whatsapp"></i>+254 732216792-Whatsapp<br><br>
+                <i class="fa-solid fa-phone"></i>+254 768109378-Telephone<br><br>
+                camorespaces@gmail.com<br><br>
+                <i class="fa-brands fa-instagram"></i> INSTAGRAM @Nafasi67ke<br><br>
+                <i class="fa-brands fa-tiktok"></i>TIKTOK @Nafasi67ke<br><br>
+
+
+            </p>
+        </div>
+        </section>
+    </section>
+</body>
