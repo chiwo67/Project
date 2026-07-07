@@ -1,22 +1,103 @@
 #button {
-    background-color: #F5D7AB;
-    color: black;
-    border: none;
-    border-radius: 25px;
-    padding: 12px 24px;
-    cursor: pointer;
+  background-color: #f5d7ab;
+  color: black;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 24px;
+  cursor: pointer;
 }
 
 #body {
-
   min-height: 100vh;
-  background-image: linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG9mZmljZXxlbnwwfHwwfHx8MA%3D%3D");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: aliceblue;
 }
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: rgba(245, 215, 171, 0.95);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.9rem;
+}
+
+#catalog {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+#catalog > div {
+  flex: 1 1 320px;
+  min-width: 280px;
+  max-width: 100%;
+  padding: 1.25rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+#catalog img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0.75rem;
+  object-fit: cover;
+}
+
+input,
+select,
+textarea,
+button {
+  font: inherit;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 0.75rem 0.9rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.95);
+  color: #222;
+}
+
+button {
+  min-width: 140px;
+}
+
+button#button,
+button[id="button"] {
+  background-color: #f5d7ab;
+  color: black;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+button#button:hover,
+button[id="button"]:hover {
+  transform: translateY(-1px);
+}
+
+section[id="T&C"] {
+  background: rgba(255, 255, 255, 0.12);
+}
+
