@@ -13,25 +13,18 @@
 </head>
 
 <body>
-    <header id="h-button" class="bg-[#C4A77D] flex flex-row gap-30 border border-1 p-3">
+    <header id="h-button" class="bg-[#C4A77D] border border-1 p-3 flex flex-col md:flex-row items-center md:justify-between gap-4">
         <h1 class="font-bold">NAFASI</h1>
-        <i class="fa-solid fa-house"></i>
-        <button onclick="window.location.href = 'index.html'" class="font-semibold">
-            Home
-        </button>
-        <button onclick="window.location.href = 'spaces.html'" class="font-semibold hover:">
-            Spaces
-        </button>
-        <button onclick="window.location.href = 'about.html'" class="font-semibold">
-            About
-        </button>
-        <button onclick="window.location.href = 'support.html'" class="font-semibold">
-            Support
-        </button>
+        <nav class="flex flex-col md:flex-row items-center gap-3 md:gap-8">
+            <a href="index.html" class="font-semibold">Home</a>
+            <a href="spaces.html" class="font-semibold">Spaces</a>
+            <a href="about.html" class="font-semibold">About</a>
+            <a href="support.html" class="font-semibold">Support</a>
+        </nav>
     </header>
-    <section id="FORM" class="place-content-center">
+    <section id="FORM" class="place-content-center " class="border border-3 bg-white">
         <h2 class="font-bold text-8x1">Book Your Stay:</h2>
-        <form action="submit_form.php" method="post">
+        <form action="submit_form.php" method="post" class="">
             <label for="name">Name:</label><br /><br />
             <input type="text" id="name" name="name" required
                 class="border border-3px rounded-[7px] w-250 h-15" /><br /><br />

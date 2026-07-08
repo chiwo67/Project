@@ -13,22 +13,14 @@
 </head>
 
 <body>
-    <header id="" class="bg-[#F5D7AB] flex flex-row gap-30
-     py-3 px-3">
+    <header id="h-button" class="bg-[#F5D7AB] py-3 px-3 flex flex-col md:flex-row items-center md:justify-between gap-4">
         <h1 class="font-bold">NAFASI</h1>
-        <i class="fa-solid fa-house"></i>
-        <button onclick="window.location.href = 'index.html'" class="font-semibold"  id="h-button" >
-            Home
-        </button>
-        <button onclick="window.location.href = 'spaces.html'" class="font-semibold"  id="h-button" >
-            Spaces
-        </button>
-        <button onclick="window.location.href = 'about.html'" class="font-semibold"  id="h-button" >
-            About
-        </button>
-        <button onclick="window.location.href = 'support.html'" class="font-semibold"  id="h-button" >
-            Support
-        </button>
+        <nav class="flex flex-col md:flex-row items-center gap-3 md:gap-8">
+            <a href="index.html" class="font-semibold">Home</a>
+            <a href="spaces.html" class="font-semibold">Spaces</a>
+            <a href="about.html" class="font-semibold">About</a>
+            <a href="support.html" class="font-semibold">Support</a>
+        </nav>
     </header>
     <section id="body" class="">
         <h1 class="text-center font-bold">About Us</h1>
