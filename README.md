@@ -52,4 +52,5 @@ There's significant demand for affordable workspace solutions in emerging market
 
 ---
 
+*Making Quality Spaces Accessible to Everyone*
 

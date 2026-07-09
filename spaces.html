@@ -13,23 +13,16 @@
 </head>
 
 <body>
-    <header id="h-button" class="bg-[#F5D7AB] flex flex-row gap-30 border border-1 p-3">
-        <h1 class="font-bold underline">NAFASI</h1>
-        <i class="fa-solid fa-house"></i>
-        <button onclick="window.location.href = 'index.html'" class="font-semibold">
-            Home
-        </button>
-        <button onclick="window.location.href = 'spaces.html'" class="font-semibold hover:">
-            Spaces
-        </button>
-        <button onclick="window.location.href = 'about.html'" class="font-semibold">
-            About
-        </button>
-        <button onclick="window.location.href = 'support.html'" class="font-semibold">
-            Support
-        </button>
+    <header id="h-button" class="bg-[#F5D7AB] border border-1 p-3 flex flex-col md:flex-row items-center md:justify-between gap-4">
+        <h1 class="font-bold">NAFASI</h1>
+        <nav class="flex flex-col md:flex-row items-center gap-3 md:gap-8">
+            <a href="index.html" class="font-semibold">Home</a>
+            <a href="spaces.html" class="font-semibold">Spaces</a>
+            <a href="about.html" class="font-semibold">About</a>
+            <a href="support.html" class="font-semibold">Support</a>
+        </nav>
     </header>
-    <section class="grid grid-cols-2 gap-3 mt-2">
+    <section class="grid grid-cols-2 gap-3 mt-2 max-md:flex flex-col">
         <p class="mt-50 font-bold ml-2 text-lg">
             Here, we have a catalog of spaces ranging from high end luxury spaces to
             common space. Whether you want a space for a CEO or an upcoming startup

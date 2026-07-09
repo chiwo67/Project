@@ -13,21 +13,14 @@
 </head>
 
 <body>
-    <header id="h-button" class="bg-[#F5D7AB] flex flex-row gap-50 py-3 px-3">
-        <h1 class="font-bold underline">NAFASI</h1>
-        <i class="fa-solid fa-house"></i>
-        <button onclick="window.location.href = 'index.html'" class="font-semibold"  id="h-button" >
-            Home
-        </button>
-        <button onclick="window.location.href = 'spaces.html'" class="font-semibold"  id="h-button" >
-            Spaces
-        </button>
-        <button onclick="window.location.href = 'about.html'" class="font-semibold"  id="h-button" >
-            About
-        </button>
-        <button onclick="window.location.href = 'support.html'" class="font-semibold"  id="h-button" >
-            Support
-        </button>
+    <header id="h-button" class="bg-[#F5D7AB] py-3 px-3 flex flex-col md:flex-row items-center md:justify-between gap-4">
+        <h1 class="font-bold">NAFASI</h1>
+        <nav class="flex flex-col md:flex-row items-center gap-3 md:gap-8">
+            <a href="index.html" class="font-semibold">Home</a>
+            <a href="spaces.html" class="font-semibold">Spaces</a>
+            <a href="about.html" class="font-semibold">About</a>
+            <a href="support.html" class="font-semibold">Support</a>
+        </nav>
     </header>
     <section id="body" class="">
         <h1 class="text-center font-bold">About Us</h1>
@@ -79,6 +72,48 @@
         </div>
         
     </section>
+     <footer>
+        <section class="bg-[#E2C391] py-3 px-2 flex flex-row-3 gap-30">
+            <div class="">
+                <h2 class="font-Outfit">Nafasi</h2>
+                <p>
+                    Discover and rent unique workspaces.<br /><br />
+                    Spaces for creativity
+                </p>
+                <br /><br />
+                <div class="gap-1">
+                    <i class="fa-brands fa-linkedin"></i><i class="fa-brands fa-instagram"></i><i
+                        class="fa-brands fa-tiktok"></i>
+                </div>
+            </div>
+            <div>
+                <h2 class="font-semibold">Explore Spaces</h2>
+                <ul>
+                    <li>Studio Spaces</li>
+                    <li>Workshop Rentals</li>
+                    <li>Co-working Areas</li>
+                    <li>Event venues</li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="font-semibold">RESOURCES</h2>
+                <ul>
+                    <li>How it workspaces</li>
+                    <li>Workspace Guide</li>
+                    <li>Community Blog</li>
+                    <li>Help Center</li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="font-semibold">Company</h2>
+                <ul>
+                    <li> <a href="about.html"> About Nafasi </a></li>
+                    <li> <a href="support.html"> Support </a></li>
+                    <li> <a href="T&C.html"> T&C </a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
    
 </body>
 
