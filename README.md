@@ -23,6 +23,12 @@ There's significant demand for affordable workspace solutions in emerging market
 - Font Awesome Icons
 - Google Fonts
 
+## Figma Design 
+- https://www.figma.com/design/qGtKVSNoXZk3igFKXNBYVQ/Camore-Space-Renting?node-id=0-1&t=IefU4kbpWhNTD7NS-1
+
+## Power Point slides
+- https://1drv.ms/p/c/1bae845a84fb6d28/IQDe195FkNblQo_fKyc-YL3sARYtdVhlCGWXfvo9fUtiH80?e=hTO639
+
 ## Features
 
 - Browse multiple spaces
